@@ -1,0 +1,289 @@
+/* main */
+.main{
+    height: 455px;
+    margin-top: 10px;
+}
+.focus{
+    overflow: hidden;
+    position: relative;
+    background-color: blue;
+    margin-left: 219px;
+    width: 721px;
+    height: 455px;
+}
+.focus ul{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 600%;
+}
+.focus ul li{
+    float: left;
+}
+.arrow_l,.arrow_r{
+    display: none;
+    position: absolute;
+    top: 50%;
+    height: 40px;
+    width: 24px;
+    margin-top: -20px;
+    background: rgba(0, 0, 0, .3);
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-family: 'icomoon';
+    font-size: 18px;
+    z-index: 2;
+}
+.arrow_r{
+    right: 0;
+}
+.circle{
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+.circle li{
+    float: left;
+    width: 8px;
+    height: 8px;
+    margin: 0 3px;
+    border-radius: 50%;
+    /* background-color: #fff; */
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+.current{
+    background-color: #fff;
+}
+.newsflash{
+    width: 250px;
+    height: 455px;
+}
+.news{
+    height: 163px;
+    border: 1px solid #ccc;
+}
+.news_hd{
+    height: 32px;
+    border-bottom: 1px dotted #ccc;
+    padding: 0 15px;
+    font-size: 14px;
+    line-height: 32px;
+}
+.news_hd a{
+    float: right;
+    font-size: 12px;
+    font-family: 'icomoon';
+}
+.news_bd{
+    padding: 10PX 0 0 15PX;
+}
+.news_bd li{
+    height: 23px;
+}
+.lifeservice{
+    overflow: hidden;
+    height: 208px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.lifeservice ul{
+    width: 252px;
+}
+.lifeservice li{
+    position: relative;
+    float: left;
+    width: 62px;
+    height: 70px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.lifeservice li a{
+    display: block;
+    overflow: hidden;
+    /* overflow: hidden; 解决i 引起的 外边距塌陷合并的问题*/
+    height: 100%;
+}
+.lifeservice li p{
+    text-align: center;
+}
+.hot{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 12px;
+    height: 15px;
+    background: url(../img/jian.jpg) no-repeat;
+}
+.service_icon{
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(../img/icons.png) no-repeat;
+    margin: 10px auto;
+}
+.serice_ico_huafei{
+    /* width: 26px;没加好像也没啥不对 */
+    background-position: -17px -16px;
+}
+.serice_ico_jipiao{
+    background-position: -78px -16px;
+}
+.serice_ico_dianyingpiao{
+    background-position: -141px -16px;
+}
+.serice_ico_youxi{
+    background-position: -205px -16px;
+}
+.serice_ico_caipiao{
+    background-position: -17px -88px;
+}
+.serice_ico_jiayouka{
+    background-position: -78px -88px;
+}
+.serice_ico_jiudian{
+    background-position: -141px -88px;
+}
+.serice_ico_huochepiao{
+    background-position: -205px -88px;
+}
+.serice_ico_zhongchou{
+    background-position: -17px -158px;
+}
+.serice_ico_licai{
+    background-position: -78px -158px;
+}
+.serice_ico_lipingka{
+    background-position: -141px -158px;
+}
+.serice_ico_baitiao{
+    background-position: -205px -158px;
+}
+.bargain{
+    height: 75px;
+    margin-top: 5px;
+}
+/* 推荐模块 */
+.recommed{
+    height: 163px;
+    margin-top: 10px;
+}
+.recom_hd{
+    width: 200px;
+    height: 163px;
+    background-color: #5c5251;
+    text-align: center;
+}
+.recom_hd img{
+    margin: 30px 0 10px 0;
+}
+.recom_hd h3{
+    font-size: 18px;
+    color: #fff;
+    font-weight: normal;
+}
+.recom_bd{
+    width: 1000px;
+    height: 163px;
+    background-color: #ebebeb;
+}
+.recom_bd li{
+    float: left;
+    width: 249px;
+    height: 145px;
+    border-right: 1px solid #ccc;
+    margin-top: 10px;
+}
+.recom_bd .last{
+    border-right: 0;
+}
+/* floor楼层区 */
+.box_hd{
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+    margin-top: 25px;
+}
+.box_hd h3{
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+}
+.box_hd .tab_list{
+    float: right;
+    line-height: 30px;
+}
+.tab_list li{
+    float: left;
+}
+.tab_list li a{
+    margin: 0 15px;
+}
+.box_bd{
+    height: 360px;
+}
+.w209{
+    width: 209px;
+    background-color: #f9f9f9;
+}
+.w329{
+    width: 329px;
+}
+.w219{
+    width: 219px;
+    border-right: 1px solid #ccc;
+}
+.w220{
+    width: 220px;
+    border-right: 1px solid #ccc;
+}
+.tab_con li{
+    float: left;
+    height: 360px;
+}
+.tab_con_list li{
+    width: 86px;
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px solid #ccc;
+    margin-left: 10px;
+    text-align: center;
+}
+.tab_con_list{
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.tab_con_item{
+    border-bottom: 1px solid #ccc;
+}
+/* 过度 */
+.box_bd img{
+    transition: all 0.2s;
+}
+.box_bd img:hover{
+    margin-left: 8px;
+}
+.box_bd li{
+    overflow: hidden;
+}
+/* 电梯导航 */
+.fixedtool{
+    position: fixed;
+    top: 200px;
+    left: 50%;
+    margin-left: -676px;
+    width: 66px;
+    background-color: #fff;
+}
+.fixedtool li{
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+.fixedtool .current{
+    background-color: #c81623;
+    color: #fff;
+}
